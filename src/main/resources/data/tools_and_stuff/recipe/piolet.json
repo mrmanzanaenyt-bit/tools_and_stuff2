@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "N": "minecraft:iron_nugget",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "IN",
+    "S "
+  ],
+  "result": { "id": "tools_and_stuff:piolet", "count": 1 }
+}

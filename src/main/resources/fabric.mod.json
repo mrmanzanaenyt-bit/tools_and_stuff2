@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "tools_and_stuff",
+  "version": "${version}",
+  "name": "tools & stuff",
+  "description": "Adds the piolet (ice axe): hold one in each hand and climb walls.",
+  "environment": "*",
+  "entrypoints": { "main": ["com.toolsandstuff.ToolsAndStuff"] },
+  "mixins": ["tools_and_stuff.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "26.3.*", "fabric-api": "*" },
+  "suggests": { "punchy": "*" }
+}

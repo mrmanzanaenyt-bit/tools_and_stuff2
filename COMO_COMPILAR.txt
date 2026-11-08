@@ -1,0 +1,7 @@
+1. Instala JDK 25.
+2. Entra a https://fabricmc.net/develop, elige Minecraft 26.3 y copia
+   loader_version, loom_version y fabric_version a gradle.properties.
+3. Copia el gradlew / gradlew.bat y la carpeta gradle/ de la plantilla de esa pagina a esta carpeta.
+4. Ejecuta:  ./gradlew build
+5. El jar queda en build/libs/tools_and_stuff-1.0.0.jar  -> ponlo en .minecraft/mods
+   (junto con Fabric API y Punchy).
